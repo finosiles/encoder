@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swp');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    margin:0;
+     border: solid 1px grey; 
+    
+}
+body{
+    background-color:#DBE4E7;
+    font-family: 'Inter', sans-serif;
+}
+.logo{
+    margin-top: 5px ;
+    height: 40px;   
+}
+.central{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 600px;;
+    margin: 2% 8% 0% 10% ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.textos1{
+    width: 60%;
+    height: 70%;
+    margin-right:30px;
+    color: #0A2898;
+    font-family: 'Inter', sans-serif ;
+    font-size: 2em;
+    font-weight:bold;
+    border:0 ;
+    outline:none;
+    background-color:#DBE4E7 ;
+}
+.textos2{
+    text-align:center;
+    width: 20%;
+    height: 90%;
+    background-color: #FFFF;
+    border-radius: 15px;
+    box-shadow: 2px 8px lightgrey;
+}
+.controles{
+    width: 60%;
+    margin-top: -10%;
+   
+    
+}
+.mensaje{
+    width: 100%;
+}
+.boton1{
+    width: 250px;
+    height: 50px;
+    margin: 0 20px 0px 50px  ;
+    color: #FFFF;
+    text-align: center;
+    background-color: #0A3871;
+    padding: 10px;
+    border-radius: 12px;
+}
+.boton2{
+    width: 250px;
+    height: 50px;
+     margin: 0 20px 0px 50px  ;
+     color: #0A3871;
+     background-color:#DBE4E7;
+    text-align: center;
+    border: 1px solid #0A3871;
+    padding: 10px;
+    border-radius: 12px;
+}
+.ningun {
+    margin: auto;
+  
+    width: 60%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.ingresa{
+    
+    width: 72%;
+    margin: 10px auto;
+    font-size: 10px;
+}
+.textos2 svg{
+    width: 50%;
+}
+.mensaje{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
